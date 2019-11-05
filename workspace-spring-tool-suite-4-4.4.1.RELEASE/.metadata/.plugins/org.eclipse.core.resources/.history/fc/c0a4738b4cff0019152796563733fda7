@@ -1,0 +1,5 @@
+package com.catalog.demo.controller;
+
+public class AppController {
+
+}

@@ -1,0 +1,14 @@
+package dtrejos;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan("com.mycompany.MY_OTHER_PACKAGE.account.config")
+public class LoginSecurityTutorialApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LoginSecurityTutorialApplication.class, args);
+	}
+}
